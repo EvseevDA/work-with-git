@@ -1,1 +1,1 @@
-# work-with-gi
+# work-with-git
