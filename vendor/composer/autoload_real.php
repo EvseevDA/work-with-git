@@ -27,10 +27,18 @@ class ComposerAutoloaderInit082996af1eec8bc0de4238d7e48fca17
         spl_autoload_unregister(array('ComposerAutoloaderInit082996af1eec8bc0de4238d7e48fca17', 'loadClassLoader'));
 
         require __DIR__ . '/autoload_static.php';
-        call_user_func(\Composer\Autoload\ComposerStaticInit082996af1eec8bc0de4238d7e48fca17::getInitializer($loader));
+//         call_user_func(\Composer\Autoload\ComposerStaticInit082996af1eec8bc0de4238d7e48fca17::getInitializer($loader));
 
-        $loader->register(true);
+//         spl_autoload_register(array('ComposerAutoloaderInite8a1030f162bf24aec7e1853b60bf04f', 'loadClassLoader'), true, true);
+//         self::$loader = $loader = new \Composer\Autoload\ClassLoader(\dirname(__DIR__));
+//         spl_autoload_unregister(array('ComposerAutoloaderInite8a1030f162bf24aec7e1853b60bf04f', 'loadClassLoader'));
 
-        return $loader;
+//         require __DIR__ . '/autoload_static.php';
+//         call_user_func(\Composer\Autoload\ComposerStaticInite8a1030f162bf24aec7e1853b60bf04f::getInitializer($loader));
+// >>>>>>> 6fd639407227380c193aadd712919d922558b80f
+
+//         $loader->register(true);
+
+//         return $loader;
     }
 }
